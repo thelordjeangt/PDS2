@@ -1,9 +1,0 @@
-#include <stdio.h>
-#include "circulo.h"
-
-int main() {
-    Circulo* c = circ_cria(0.0, 0.0, 1.0);
-    printf("Area do circulo: %.2f\n", circ_area(c));
-    circ_libera(c);
-    return 0;
-}
